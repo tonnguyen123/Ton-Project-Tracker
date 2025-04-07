@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project-tracker", "project-tracker", "{197B92CC-99FD-E8B7-B39E-6527E9DB52C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C067704B-3075-C3FF-01B6-E8B34C55E76F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{66C3C0D0-99E7-3403-5D06-5A36B09608DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTrackerAPI", "project-tracker\src\api\ProjectTrackerAPI\ProjectTrackerAPI.csproj", "{7663553C-0A83-3B7A-021B-C739542ED2D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7663553C-0A83-3B7A-021B-C739542ED2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7663553C-0A83-3B7A-021B-C739542ED2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7663553C-0A83-3B7A-021B-C739542ED2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7663553C-0A83-3B7A-021B-C739542ED2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C067704B-3075-C3FF-01B6-E8B34C55E76F} = {197B92CC-99FD-E8B7-B39E-6527E9DB52C7}
+		{66C3C0D0-99E7-3403-5D06-5A36B09608DC} = {C067704B-3075-C3FF-01B6-E8B34C55E76F}
+		{7663553C-0A83-3B7A-021B-C739542ED2D8} = {66C3C0D0-99E7-3403-5D06-5A36B09608DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49823808-007C-48F2-BD1B-FDA430DC3664}
+	EndGlobalSection
+EndGlobal
